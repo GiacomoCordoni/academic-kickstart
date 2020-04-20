@@ -5,7 +5,7 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 90  # Order that this section will appear.
+weight = 70  # Order that this section will appear.
 
 title = "Recent Publications"
 subtitle = ""
@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 4
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -28,8 +28,8 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = ""
-    author = ""
     exclude_featured = false
+
   
 [design]
   # Toggle between the various page layout types.
@@ -49,24 +49,30 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  # gradient_start = "#dcdcdc"
+  # gradient_end = "#d3d3d3"
+  gradient_start = "#c1e1ec"
+  gradient_end = "#add8e6"
+
+  
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  #image = "im4.jpg"  # Name of image in `static/img/`.
+  #image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  text_color_light = false  
   
 [advanced]
  # Custom CSS. 
- css_style = ""
+ css_style = "color:eggshell"
  
  # CSS class.
  css_class = ""
+
+# **Collaboration Network**
+# {{<includehtml file="img/network.html">}}
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+
+

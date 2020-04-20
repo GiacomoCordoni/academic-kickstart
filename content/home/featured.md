@@ -6,9 +6,9 @@
 widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 80  # Order that this section will appear.
+weight = 69  # Order that this section will appear.
 
-title = "Featured Publications"
+title = "First-Author Publications"
 subtitle = ""
 
 [content]
@@ -21,15 +21,11 @@ subtitle = ""
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
-  # Show a "See all pages" link underneath the featured content?
-  link_to_archive = false
-
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
     category = ""
     publication_type = ""
-    author = ""
   
 [design]
   # Toggle between the various page layout types.
@@ -49,19 +45,21 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  # gradient_start = "#e0e0e0"
+  # gradient_end = "#dcdcdc"
+  gradient_start = "#d4ebf2"
+  gradient_end = "#c1e1ec"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image = "im4.jpg"  # Name of image in `static/img/`.
+  # image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  # text_color_light = false  
   
 [advanced]
  # Custom CSS. 
- css_style = ""
+ css_style = "color:eggshell"
  
  # CSS class.
  css_class = ""
